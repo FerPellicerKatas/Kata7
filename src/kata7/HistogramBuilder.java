@@ -14,8 +14,7 @@ public class HistogramBuilder {
         Histogram histogram = new Histogram(type, filter, bin);
         
         for (Flight flight : this.flights) {
-            if(flight.getDayOfWeek().toString().equalsIgnoreCase(filter) && 
-                    Integer.parseInt(bin) > flight.getValueMethods().get(type))
+            if(flight.getDayOfWeek().toString().equalsIgnoreCase(filter))
             {
                 histogram.increment(flight.get(type));
             }
