@@ -13,7 +13,7 @@ Devuelve dimensión, filtro, la lista de los valores x e y.
 
 Un ejemplo al ejecutar el programa es el siguiente:
 
-Entrada:     http://localhost/histogram/distance/monday/200 (vuelos por distancia, los viernes, límite máximo de bin = 200)
+Entrada:     http://localhost/histogram/distance/monday/200 (vuelos por distancia, los lunes, límite máximo de bin = 200)
 
 Salida (simplificada, ya que el resultado tenía muchos elementos):
 
