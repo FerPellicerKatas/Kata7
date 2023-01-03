@@ -13,12 +13,12 @@ Devuelve dimensión, filtro, la lista de los valores x e y.
 
 Un ejemplo al ejecutar el programa es el siguiente:
 
-Entrada:     http://localhost/histogram/distance/friday/300 (vuelos por distancia, los viernes, límite máximo de bin = 300)
+Entrada:     http://localhost/histogram/distance/monday/200 (vuelos por distancia, los viernes, límite máximo de bin = 200)
 
 Salida (simplificada, ya que el resultado tenía muchos elementos):
 
-{ "dimension": "distance", "filter": "friday", "bin": "300", "map": { "2052": 236, "2065": 235, "2072": 300, "26": 1, "2075": 300, "2077": 215, "31": 102, "2079": 300, "2086": 58, "2089": 104, "41": 20, "2092": 203, "56": 87, "2105": 185, "2106": 300, "67": 300, "68": 222,
+{ "dimension": "distance", "filter": "monday", "bin": "200", "map": { "31": 103, "41": 14, "56": 90, "67": 1555, "68": 217, "69": 23, "73": 624, "74": 455, "76": 70, "77": 366, "78": 122, "80": 3, "82": 103, "83": 552, "84": 638, "86": 1407, "89": 1211, "90": 203, 
 
 ..........
 
-"1986": 179, "1990": 300, "1995": 206, "1999": 300, "2007": 133, "2018": 40, "2021": 2, "2026": 154, "2036": 98, "2039": 242 } }
+"189": 1186, "190": 3125, "191": 938, "192": 3211, "193": 50, "195": 98, "196": 1313, "197": 1024, "198": 267, "199": 1121, "200": 1890 } }
