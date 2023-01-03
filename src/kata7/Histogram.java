@@ -28,9 +28,7 @@ public class Histogram<T> {
     public void increment(T key) {
         if (this.map.containsKey(key)) {
             int currentCount = this.map.get(key);
-            if(currentCount < Integer.parseInt(bin)){
-                this.map.put(key, currentCount + 1);       
-            }
+            this.map.put(key, currentCount + 1);       
              
         } else {
           this.map.put(key, 1);
